@@ -19187,12 +19187,6 @@ grid 5.08 mm</description>
 <wire x1="200.66" y1="45.72" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PB0(ICP)"/>
-<wire x1="200.66" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$60" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="2"/>
@@ -19279,6 +19273,11 @@ grid 5.08 mm</description>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="-17.78" x2="-15.24" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-15.24" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="200.66" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
+<label x="205.74" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$67" class="0">
