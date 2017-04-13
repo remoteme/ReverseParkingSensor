@@ -18,29 +18,29 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -70,7 +70,7 @@
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -100,53 +100,6 @@
 <wire x1="67.615" y1="25.4" x2="68.25" y2="78.73" width="0" layer="20"/>
 <wire x1="68.25" y1="78.73" x2="26.035" y2="78.73" width="0" layer="20"/>
 <wire x1="26.035" y1="78.73" x2="25.4" y2="25.4" width="0" layer="20"/>
-<text x="-8.001" y="-129.921" size="1.27" layer="125" ratio="10">C1</text>
-<text x="-19.939" y="-105.029" size="1.27" layer="125" ratio="10" rot="R180">C2</text>
-<text x="-13.716" y="-120.904" size="1.27" layer="125" ratio="10" rot="R270">C3</text>
-<text x="-15.494" y="-125.857" size="1.27" layer="125" ratio="10" rot="R90">C4</text>
-<text x="-40.513" y="-123.063" size="1.27" layer="125" ratio="10">C5</text>
-<text x="-34.417" y="-123.317" size="1.27" layer="125" ratio="10" rot="R180">C6</text>
-<text x="7.239" y="-121.539" size="1.27" layer="125" ratio="10" rot="R270">C7</text>
-<text x="-12.192" y="-122.809" size="1.27" layer="125" ratio="10" rot="R180">C8</text>
-<text x="54.356" y="-118.999" size="1.27" layer="125" ratio="10" rot="R270">IC1</text>
-<text x="-24.13" y="-103.3526" size="1.778" layer="125" ratio="10">IC2</text>
-<text x="42.291" y="-103.759" size="1.27" layer="125" ratio="10" rot="R270">IC3</text>
-<text x="47.371" y="-134.874" size="1.27" layer="125" ratio="10" rot="R270">IC4</text>
-<text x="-41.275" y="-118.11" size="1.778" layer="125" ratio="10">IC5</text>
-<text x="-8.89" y="-120.015" size="1.778" layer="125" ratio="10">IC6</text>
-<text x="67.945" y="-146.685" size="1.778" layer="125" rot="R180">J1</text>
-<text x="67.945" y="-130.175" size="1.778" layer="125" rot="R180">J2</text>
-<text x="67.945" y="-113.665" size="1.778" layer="125" rot="R180">J3</text>
-<text x="-42.545" y="-98.425" size="1.778" layer="125">J4</text>
-<text x="-44.831" y="-146.431" size="1.27" layer="125" ratio="10" rot="R90">JP3</text>
-<text x="-42.291" y="-146.431" size="1.27" layer="125" ratio="10" rot="R90">JP4</text>
-<text x="-16.891" y="-135.001" size="1.27" layer="125" ratio="10" rot="R90">JP6</text>
-<text x="-26.289" y="-105.029" size="1.27" layer="125" ratio="10" rot="R270">JP11</text>
-<text x="-26.289" y="-120.015" size="1.27" layer="125" ratio="10" rot="R270">JP12</text>
-<text x="-29.591" y="-119.761" size="1.27" layer="125" ratio="10" rot="R90">JP13</text>
-<text x="-33.410015625" y="-134.991984375" size="1.27" layer="125" ratio="10" rot="R90">Q1</text>
-<text x="-24.2316" y="-102.6414" size="1.27" layer="125" ratio="10" rot="R270">R1</text>
-<text x="11.8364" y="-130.9116" size="1.27" layer="125" ratio="10">R2</text>
-<text x="-11.811" y="-132.588" size="1.27" layer="125" ratio="10" rot="R90">R3</text>
-<text x="11.8364" y="-133.4516" size="1.27" layer="125" ratio="10">R4</text>
-<text x="11.8364" y="-120.7516" size="1.27" layer="125" ratio="10">R5</text>
-<text x="11.8364" y="-113.1316" size="1.27" layer="125" ratio="10">R6</text>
-<text x="11.8364" y="-102.9716" size="1.27" layer="125" ratio="10">R7</text>
-<text x="11.8364" y="-135.9916" size="1.27" layer="125" ratio="10">R8</text>
-<text x="11.8364" y="-128.3716" size="1.27" layer="125" ratio="10">R9</text>
-<text x="11.8364" y="-125.8316" size="1.27" layer="125" ratio="10">R10</text>
-<text x="11.8364" y="-123.2916" size="1.27" layer="125" ratio="10">R11</text>
-<text x="11.8364" y="-118.2116" size="1.27" layer="125" ratio="10">R12</text>
-<text x="11.8364" y="-115.6716" size="1.27" layer="125" ratio="10">R13</text>
-<text x="11.8364" y="-108.0516" size="1.27" layer="125" ratio="10">R14</text>
-<text x="11.8364" y="-105.5116" size="1.27" layer="125" ratio="10">R15</text>
-<text x="11.8364" y="-141.0716" size="1.27" layer="125" ratio="10">R16</text>
-<text x="11.8364" y="-138.5316" size="1.27" layer="125" ratio="10">R17</text>
-<text x="11.8364" y="-110.5916" size="1.27" layer="125" ratio="10">R18</text>
-<text x="2.0066" y="-122.7836" size="1.27" layer="125" ratio="10" rot="R90">R19</text>
-<text x="-9.525" y="-102.235" size="1.27" layer="125" ratio="10" rot="R270">U$1</text>
-<text x="11.43" y="-119.38" size="1.27" layer="125" rot="R270">U$3</text>
-<text x="-36.2712" y="-137.83119375" size="1.27" layer="125" ratio="10" rot="R90">X3</text>
 <rectangle x1="27.3685" y1="70.9803" x2="30.7213" y2="71.0565" layer="200"/>
 <rectangle x1="27.2923" y1="71.0565" x2="30.7975" y2="71.1327" layer="200"/>
 <rectangle x1="27.2161" y1="71.1327" x2="30.7975" y2="71.2089" layer="200"/>
@@ -262,289 +215,7 @@
 <rectangle x1="28.7401" y1="77.7621" x2="29.0449" y2="77.8383" layer="200"/>
 <rectangle x1="28.8163" y1="77.8383" x2="29.0449" y2="77.9145" layer="200"/>
 <rectangle x1="28.8925" y1="77.9145" x2="29.0449" y2="77.9907" layer="200"/>
-<text x="-28.321" y="-288.671" size="1.27" layer="125" ratio="10">C1</text>
-<text x="-40.259" y="-263.779" size="1.27" layer="125" ratio="10" rot="R180">C2</text>
-<text x="-34.036" y="-279.654" size="1.27" layer="125" ratio="10" rot="R270">C3</text>
-<text x="-35.814" y="-284.607" size="1.27" layer="125" ratio="10" rot="R90">C4</text>
-<text x="-60.833" y="-281.813" size="1.27" layer="125" ratio="10">C5</text>
-<text x="-54.737" y="-282.067" size="1.27" layer="125" ratio="10" rot="R180">C6</text>
-<text x="-13.081" y="-280.289" size="1.27" layer="125" ratio="10" rot="R270">C7</text>
-<text x="-32.512" y="-281.559" size="1.27" layer="125" ratio="10" rot="R180">C8</text>
-<text x="34.036" y="-277.749" size="1.27" layer="125" ratio="10" rot="R270">IC1</text>
-<text x="-44.45" y="-262.1026" size="1.778" layer="125" ratio="10">IC2</text>
-<text x="21.971" y="-262.509" size="1.27" layer="125" ratio="10" rot="R270">IC3</text>
-<text x="27.051" y="-293.624" size="1.27" layer="125" ratio="10" rot="R270">IC4</text>
-<text x="-61.595" y="-276.86" size="1.778" layer="125" ratio="10">IC5</text>
-<text x="-29.21" y="-278.765" size="1.778" layer="125" ratio="10">IC6</text>
-<text x="47.625" y="-305.435" size="1.778" layer="125" rot="R180">J1</text>
-<text x="47.625" y="-288.925" size="1.778" layer="125" rot="R180">J2</text>
-<text x="47.625" y="-272.415" size="1.778" layer="125" rot="R180">J3</text>
-<text x="-62.865" y="-257.175" size="1.778" layer="125">J4</text>
-<text x="-65.151" y="-305.181" size="1.27" layer="125" ratio="10" rot="R90">JP3</text>
-<text x="-62.611" y="-305.181" size="1.27" layer="125" ratio="10" rot="R90">JP4</text>
-<text x="-37.211" y="-293.751" size="1.27" layer="125" ratio="10" rot="R90">JP6</text>
-<text x="-46.609" y="-263.779" size="1.27" layer="125" ratio="10" rot="R270">JP11</text>
-<text x="-46.609" y="-278.765" size="1.27" layer="125" ratio="10" rot="R270">JP12</text>
-<text x="-49.911" y="-278.511" size="1.27" layer="125" ratio="10" rot="R90">JP13</text>
-<text x="-53.730015625" y="-293.741984375" size="1.27" layer="125" ratio="10" rot="R90">Q1</text>
-<text x="-44.5516" y="-261.3914" size="1.27" layer="125" ratio="10" rot="R270">R1</text>
-<text x="-8.4836" y="-289.6616" size="1.27" layer="125" ratio="10">R2</text>
-<text x="-32.131" y="-291.338" size="1.27" layer="125" ratio="10" rot="R90">R3</text>
-<text x="-8.4836" y="-292.2016" size="1.27" layer="125" ratio="10">R4</text>
-<text x="-8.4836" y="-279.5016" size="1.27" layer="125" ratio="10">R5</text>
-<text x="-8.4836" y="-271.8816" size="1.27" layer="125" ratio="10">R6</text>
-<text x="-8.4836" y="-261.7216" size="1.27" layer="125" ratio="10">R7</text>
-<text x="-8.4836" y="-294.7416" size="1.27" layer="125" ratio="10">R8</text>
-<text x="-8.4836" y="-287.1216" size="1.27" layer="125" ratio="10">R9</text>
-<text x="-8.4836" y="-284.5816" size="1.27" layer="125" ratio="10">R10</text>
-<text x="-8.4836" y="-282.0416" size="1.27" layer="125" ratio="10">R11</text>
-<text x="-8.4836" y="-276.9616" size="1.27" layer="125" ratio="10">R12</text>
-<text x="-8.4836" y="-274.4216" size="1.27" layer="125" ratio="10">R13</text>
-<text x="-8.4836" y="-266.8016" size="1.27" layer="125" ratio="10">R14</text>
-<text x="-8.4836" y="-264.2616" size="1.27" layer="125" ratio="10">R15</text>
-<text x="-8.4836" y="-299.8216" size="1.27" layer="125" ratio="10">R16</text>
-<text x="-8.4836" y="-297.2816" size="1.27" layer="125" ratio="10">R17</text>
-<text x="-8.4836" y="-269.3416" size="1.27" layer="125" ratio="10">R18</text>
-<text x="-18.3134" y="-281.5336" size="1.27" layer="125" ratio="10" rot="R90">R19</text>
-<text x="-29.845" y="-260.985" size="1.27" layer="125" ratio="10" rot="R270">U$1</text>
-<text x="-8.89" y="-278.13" size="1.27" layer="125" rot="R270">U$3</text>
-<text x="-56.5912" y="-296.58119375" size="1.27" layer="125" ratio="10" rot="R90">X3</text>
 <text x="67.31" y="49.53" size="1.778" layer="16" rot="MR270">SAJDAK IT</text>
-<text x="-48.641" y="-414.401" size="1.27" layer="125" ratio="10">C1</text>
-<text x="-60.579" y="-389.509" size="1.27" layer="125" ratio="10" rot="R180">C2</text>
-<text x="-54.356" y="-405.384" size="1.27" layer="125" ratio="10" rot="R270">C3</text>
-<text x="-56.134" y="-410.337" size="1.27" layer="125" ratio="10" rot="R90">C4</text>
-<text x="-81.153" y="-407.543" size="1.27" layer="125" ratio="10">C5</text>
-<text x="-75.057" y="-407.797" size="1.27" layer="125" ratio="10" rot="R180">C6</text>
-<text x="-33.401" y="-406.019" size="1.27" layer="125" ratio="10" rot="R270">C7</text>
-<text x="-52.832" y="-407.289" size="1.27" layer="125" ratio="10" rot="R180">C8</text>
-<text x="13.716" y="-403.479" size="1.27" layer="125" ratio="10" rot="R270">IC1</text>
-<text x="-64.77" y="-387.8326" size="1.778" layer="125" ratio="10">IC2</text>
-<text x="1.651" y="-388.239" size="1.27" layer="125" ratio="10" rot="R270">IC3</text>
-<text x="6.731" y="-419.354" size="1.27" layer="125" ratio="10" rot="R270">IC4</text>
-<text x="-81.915" y="-402.59" size="1.778" layer="125" ratio="10">IC5</text>
-<text x="-49.53" y="-404.495" size="1.778" layer="125" ratio="10">IC6</text>
-<text x="27.305" y="-431.165" size="1.778" layer="125" rot="R180">J1</text>
-<text x="27.305" y="-414.655" size="1.778" layer="125" rot="R180">J2</text>
-<text x="27.305" y="-398.145" size="1.778" layer="125" rot="R180">J3</text>
-<text x="-83.185" y="-382.905" size="1.778" layer="125">J4</text>
-<text x="-85.471" y="-430.911" size="1.27" layer="125" ratio="10" rot="R90">JP3</text>
-<text x="-82.931" y="-430.911" size="1.27" layer="125" ratio="10" rot="R90">JP4</text>
-<text x="-57.531" y="-419.481" size="1.27" layer="125" ratio="10" rot="R90">JP6</text>
-<text x="-66.929" y="-389.509" size="1.27" layer="125" ratio="10" rot="R270">JP11</text>
-<text x="-66.929" y="-404.495" size="1.27" layer="125" ratio="10" rot="R270">JP12</text>
-<text x="-70.231" y="-404.241" size="1.27" layer="125" ratio="10" rot="R90">JP13</text>
-<text x="-74.050015625" y="-419.471984375" size="1.27" layer="125" ratio="10" rot="R90">Q1</text>
-<text x="-64.8716" y="-387.1214" size="1.27" layer="125" ratio="10" rot="R270">R1</text>
-<text x="-28.8036" y="-415.3916" size="1.27" layer="125" ratio="10">R2</text>
-<text x="-52.451" y="-417.068" size="1.27" layer="125" ratio="10" rot="R90">R3</text>
-<text x="-28.8036" y="-417.9316" size="1.27" layer="125" ratio="10">R4</text>
-<text x="-28.8036" y="-405.2316" size="1.27" layer="125" ratio="10">R5</text>
-<text x="-28.8036" y="-397.6116" size="1.27" layer="125" ratio="10">R6</text>
-<text x="-28.8036" y="-387.4516" size="1.27" layer="125" ratio="10">R7</text>
-<text x="-28.8036" y="-420.4716" size="1.27" layer="125" ratio="10">R8</text>
-<text x="-28.8036" y="-412.8516" size="1.27" layer="125" ratio="10">R9</text>
-<text x="-28.8036" y="-410.3116" size="1.27" layer="125" ratio="10">R10</text>
-<text x="-28.8036" y="-407.7716" size="1.27" layer="125" ratio="10">R11</text>
-<text x="-28.8036" y="-402.6916" size="1.27" layer="125" ratio="10">R12</text>
-<text x="-28.8036" y="-400.1516" size="1.27" layer="125" ratio="10">R13</text>
-<text x="-28.8036" y="-392.5316" size="1.27" layer="125" ratio="10">R14</text>
-<text x="-28.8036" y="-389.9916" size="1.27" layer="125" ratio="10">R15</text>
-<text x="-28.8036" y="-425.5516" size="1.27" layer="125" ratio="10">R16</text>
-<text x="-28.8036" y="-423.0116" size="1.27" layer="125" ratio="10">R17</text>
-<text x="-28.8036" y="-395.0716" size="1.27" layer="125" ratio="10">R18</text>
-<text x="-38.6334" y="-407.2636" size="1.27" layer="125" ratio="10" rot="R90">R19</text>
-<text x="-50.165" y="-386.715" size="1.27" layer="125" ratio="10" rot="R270">U$1</text>
-<text x="-29.21" y="-403.86" size="1.27" layer="125" rot="R270">U$3</text>
-<text x="-76.9112" y="-422.31119375" size="1.27" layer="125" ratio="10" rot="R90">X3</text>
-<text x="-62.611" y="-561.721" size="1.27" layer="125" ratio="10">C1</text>
-<text x="-74.549" y="-536.829" size="1.27" layer="125" ratio="10" rot="R180">C2</text>
-<text x="-68.326" y="-552.704" size="1.27" layer="125" ratio="10" rot="R270">C3</text>
-<text x="-70.104" y="-557.657" size="1.27" layer="125" ratio="10" rot="R90">C4</text>
-<text x="-95.123" y="-554.863" size="1.27" layer="125" ratio="10">C5</text>
-<text x="-89.027" y="-555.117" size="1.27" layer="125" ratio="10" rot="R180">C6</text>
-<text x="-47.371" y="-553.339" size="1.27" layer="125" ratio="10" rot="R270">C7</text>
-<text x="-66.802" y="-554.609" size="1.27" layer="125" ratio="10" rot="R180">C8</text>
-<text x="-0.254" y="-550.799" size="1.27" layer="125" ratio="10" rot="R270">IC1</text>
-<text x="-78.74" y="-535.1526" size="1.778" layer="125" ratio="10">IC2</text>
-<text x="-12.319" y="-535.559" size="1.27" layer="125" ratio="10" rot="R270">IC3</text>
-<text x="-7.239" y="-566.674" size="1.27" layer="125" ratio="10" rot="R270">IC4</text>
-<text x="-95.885" y="-549.91" size="1.778" layer="125" ratio="10">IC5</text>
-<text x="-63.5" y="-551.815" size="1.778" layer="125" ratio="10">IC6</text>
-<text x="13.335" y="-578.485" size="1.778" layer="125" rot="R180">J1</text>
-<text x="13.335" y="-561.975" size="1.778" layer="125" rot="R180">J2</text>
-<text x="13.335" y="-545.465" size="1.778" layer="125" rot="R180">J3</text>
-<text x="-97.155" y="-530.225" size="1.778" layer="125">J4</text>
-<text x="-99.441" y="-578.231" size="1.27" layer="125" ratio="10" rot="R90">JP3</text>
-<text x="-96.901" y="-578.231" size="1.27" layer="125" ratio="10" rot="R90">JP4</text>
-<text x="-71.501" y="-566.801" size="1.27" layer="125" ratio="10" rot="R90">JP6</text>
-<text x="-80.899" y="-536.829" size="1.27" layer="125" ratio="10" rot="R270">JP11</text>
-<text x="-80.899" y="-551.815" size="1.27" layer="125" ratio="10" rot="R270">JP12</text>
-<text x="-84.201" y="-551.561" size="1.27" layer="125" ratio="10" rot="R90">JP13</text>
-<text x="-88.020015625" y="-566.791984375" size="1.27" layer="125" ratio="10" rot="R90">Q1</text>
-<text x="-78.8416" y="-534.4414" size="1.27" layer="125" ratio="10" rot="R270">R1</text>
-<text x="-42.7736" y="-562.7116" size="1.27" layer="125" ratio="10">R2</text>
-<text x="-66.421" y="-564.388" size="1.27" layer="125" ratio="10" rot="R90">R3</text>
-<text x="-42.7736" y="-565.2516" size="1.27" layer="125" ratio="10">R4</text>
-<text x="-42.7736" y="-552.5516" size="1.27" layer="125" ratio="10">R5</text>
-<text x="-42.7736" y="-544.9316" size="1.27" layer="125" ratio="10">R6</text>
-<text x="-42.7736" y="-534.7716" size="1.27" layer="125" ratio="10">R7</text>
-<text x="-42.7736" y="-567.7916" size="1.27" layer="125" ratio="10">R8</text>
-<text x="-42.7736" y="-560.1716" size="1.27" layer="125" ratio="10">R9</text>
-<text x="-42.7736" y="-557.6316" size="1.27" layer="125" ratio="10">R10</text>
-<text x="-42.7736" y="-555.0916" size="1.27" layer="125" ratio="10">R11</text>
-<text x="-42.7736" y="-550.0116" size="1.27" layer="125" ratio="10">R12</text>
-<text x="-42.7736" y="-547.4716" size="1.27" layer="125" ratio="10">R13</text>
-<text x="-42.7736" y="-539.8516" size="1.27" layer="125" ratio="10">R14</text>
-<text x="-42.7736" y="-537.3116" size="1.27" layer="125" ratio="10">R15</text>
-<text x="-42.7736" y="-572.8716" size="1.27" layer="125" ratio="10">R16</text>
-<text x="-42.7736" y="-570.3316" size="1.27" layer="125" ratio="10">R17</text>
-<text x="-42.7736" y="-542.3916" size="1.27" layer="125" ratio="10">R18</text>
-<text x="-52.6034" y="-554.5836" size="1.27" layer="125" ratio="10" rot="R90">R19</text>
-<text x="-64.135" y="-534.035" size="1.27" layer="125" ratio="10" rot="R270">U$1</text>
-<text x="-43.18" y="-551.18" size="1.27" layer="125" rot="R270">U$3</text>
-<text x="-90.8812" y="-569.63119375" size="1.27" layer="125" ratio="10" rot="R90">X3</text>
-<text x="-77.851" y="-645.541" size="1.27" layer="125" ratio="10">C1</text>
-<text x="-89.789" y="-620.649" size="1.27" layer="125" ratio="10" rot="R180">C2</text>
-<text x="-83.566" y="-636.524" size="1.27" layer="125" ratio="10" rot="R270">C3</text>
-<text x="-85.344" y="-641.477" size="1.27" layer="125" ratio="10" rot="R90">C4</text>
-<text x="-110.363" y="-638.683" size="1.27" layer="125" ratio="10">C5</text>
-<text x="-104.267" y="-638.937" size="1.27" layer="125" ratio="10" rot="R180">C6</text>
-<text x="-62.611" y="-637.159" size="1.27" layer="125" ratio="10" rot="R270">C7</text>
-<text x="-82.042" y="-638.429" size="1.27" layer="125" ratio="10" rot="R180">C8</text>
-<text x="-15.494" y="-634.619" size="1.27" layer="125" ratio="10" rot="R270">IC1</text>
-<text x="-93.98" y="-618.9726" size="1.778" layer="125" ratio="10">IC2</text>
-<text x="-27.559" y="-619.379" size="1.27" layer="125" ratio="10" rot="R270">IC3</text>
-<text x="-22.479" y="-650.494" size="1.27" layer="125" ratio="10" rot="R270">IC4</text>
-<text x="-111.125" y="-633.73" size="1.778" layer="125" ratio="10">IC5</text>
-<text x="-78.74" y="-635.635" size="1.778" layer="125" ratio="10">IC6</text>
-<text x="-1.905" y="-662.305" size="1.778" layer="125" rot="R180">J1</text>
-<text x="-1.905" y="-645.795" size="1.778" layer="125" rot="R180">J2</text>
-<text x="-1.905" y="-629.285" size="1.778" layer="125" rot="R180">J3</text>
-<text x="-112.395" y="-614.045" size="1.778" layer="125">J4</text>
-<text x="-114.681" y="-662.051" size="1.27" layer="125" ratio="10" rot="R90">JP3</text>
-<text x="-112.141" y="-662.051" size="1.27" layer="125" ratio="10" rot="R90">JP4</text>
-<text x="-86.741" y="-650.621" size="1.27" layer="125" ratio="10" rot="R90">JP6</text>
-<text x="-96.139" y="-620.649" size="1.27" layer="125" ratio="10" rot="R270">JP11</text>
-<text x="-96.139" y="-635.635" size="1.27" layer="125" ratio="10" rot="R270">JP12</text>
-<text x="-99.441" y="-635.381" size="1.27" layer="125" ratio="10" rot="R90">JP13</text>
-<text x="-103.260015625" y="-650.611984375" size="1.27" layer="125" ratio="10" rot="R90">Q1</text>
-<text x="-94.0816" y="-618.2614" size="1.27" layer="125" ratio="10" rot="R270">R1</text>
-<text x="-58.0136" y="-646.5316" size="1.27" layer="125" ratio="10">R2</text>
-<text x="-81.661" y="-648.208" size="1.27" layer="125" ratio="10" rot="R90">R3</text>
-<text x="-58.0136" y="-649.0716" size="1.27" layer="125" ratio="10">R4</text>
-<text x="-58.0136" y="-636.3716" size="1.27" layer="125" ratio="10">R5</text>
-<text x="-58.0136" y="-628.7516" size="1.27" layer="125" ratio="10">R6</text>
-<text x="-58.0136" y="-618.5916" size="1.27" layer="125" ratio="10">R7</text>
-<text x="-58.0136" y="-651.6116" size="1.27" layer="125" ratio="10">R8</text>
-<text x="-58.0136" y="-643.9916" size="1.27" layer="125" ratio="10">R9</text>
-<text x="-58.0136" y="-641.4516" size="1.27" layer="125" ratio="10">R10</text>
-<text x="-58.0136" y="-638.9116" size="1.27" layer="125" ratio="10">R11</text>
-<text x="-58.0136" y="-633.8316" size="1.27" layer="125" ratio="10">R12</text>
-<text x="-58.0136" y="-631.2916" size="1.27" layer="125" ratio="10">R13</text>
-<text x="-58.0136" y="-623.6716" size="1.27" layer="125" ratio="10">R14</text>
-<text x="-58.0136" y="-621.1316" size="1.27" layer="125" ratio="10">R15</text>
-<text x="-58.0136" y="-656.6916" size="1.27" layer="125" ratio="10">R16</text>
-<text x="-58.0136" y="-654.1516" size="1.27" layer="125" ratio="10">R17</text>
-<text x="-58.0136" y="-626.2116" size="1.27" layer="125" ratio="10">R18</text>
-<text x="-67.8434" y="-638.4036" size="1.27" layer="125" ratio="10" rot="R90">R19</text>
-<text x="-79.375" y="-617.855" size="1.27" layer="125" ratio="10" rot="R270">U$1</text>
-<text x="-58.42" y="-635" size="1.27" layer="125" rot="R270">U$3</text>
-<text x="-106.1212" y="-653.45119375" size="1.27" layer="125" ratio="10" rot="R90">X3</text>
-<text x="-93.091" y="-777.621" size="1.27" layer="125" ratio="10">C1</text>
-<text x="-105.029" y="-752.729" size="1.27" layer="125" ratio="10" rot="R180">C2</text>
-<text x="-98.806" y="-768.604" size="1.27" layer="125" ratio="10" rot="R270">C3</text>
-<text x="-100.584" y="-773.557" size="1.27" layer="125" ratio="10" rot="R90">C4</text>
-<text x="-125.603" y="-770.763" size="1.27" layer="125" ratio="10">C5</text>
-<text x="-119.507" y="-771.017" size="1.27" layer="125" ratio="10" rot="R180">C6</text>
-<text x="-77.851" y="-769.239" size="1.27" layer="125" ratio="10" rot="R270">C7</text>
-<text x="-97.282" y="-770.509" size="1.27" layer="125" ratio="10" rot="R180">C8</text>
-<text x="-30.734" y="-766.699" size="1.27" layer="125" ratio="10" rot="R270">IC1</text>
-<text x="-109.22" y="-751.0526" size="1.778" layer="125" ratio="10">IC2</text>
-<text x="-42.799" y="-751.459" size="1.27" layer="125" ratio="10" rot="R270">IC3</text>
-<text x="-37.719" y="-782.574" size="1.27" layer="125" ratio="10" rot="R270">IC4</text>
-<text x="-126.365" y="-765.81" size="1.778" layer="125" ratio="10">IC5</text>
-<text x="-93.98" y="-767.715" size="1.778" layer="125" ratio="10">IC6</text>
-<text x="-17.145" y="-794.385" size="1.778" layer="125" rot="R180">J1</text>
-<text x="-17.145" y="-777.875" size="1.778" layer="125" rot="R180">J2</text>
-<text x="-17.145" y="-761.365" size="1.778" layer="125" rot="R180">J3</text>
-<text x="-127.635" y="-746.125" size="1.778" layer="125">J4</text>
-<text x="-129.921" y="-794.131" size="1.27" layer="125" ratio="10" rot="R90">JP3</text>
-<text x="-127.381" y="-794.131" size="1.27" layer="125" ratio="10" rot="R90">JP4</text>
-<text x="-101.981" y="-782.701" size="1.27" layer="125" ratio="10" rot="R90">JP6</text>
-<text x="-111.379" y="-752.729" size="1.27" layer="125" ratio="10" rot="R270">JP11</text>
-<text x="-111.379" y="-767.715" size="1.27" layer="125" ratio="10" rot="R270">JP12</text>
-<text x="-114.681" y="-767.461" size="1.27" layer="125" ratio="10" rot="R90">JP13</text>
-<text x="-118.500015625" y="-782.691984375" size="1.27" layer="125" ratio="10" rot="R90">Q1</text>
-<text x="-109.3216" y="-750.3414" size="1.27" layer="125" ratio="10" rot="R270">R1</text>
-<text x="-73.2536" y="-778.6116" size="1.27" layer="125" ratio="10">R2</text>
-<text x="-96.901" y="-780.288" size="1.27" layer="125" ratio="10" rot="R90">R3</text>
-<text x="-73.2536" y="-781.1516" size="1.27" layer="125" ratio="10">R4</text>
-<text x="-73.2536" y="-768.4516" size="1.27" layer="125" ratio="10">R5</text>
-<text x="-73.2536" y="-760.8316" size="1.27" layer="125" ratio="10">R6</text>
-<text x="-73.2536" y="-750.6716" size="1.27" layer="125" ratio="10">R7</text>
-<text x="-73.2536" y="-783.6916" size="1.27" layer="125" ratio="10">R8</text>
-<text x="-73.2536" y="-776.0716" size="1.27" layer="125" ratio="10">R9</text>
-<text x="-73.2536" y="-773.5316" size="1.27" layer="125" ratio="10">R10</text>
-<text x="-73.2536" y="-770.9916" size="1.27" layer="125" ratio="10">R11</text>
-<text x="-73.2536" y="-765.9116" size="1.27" layer="125" ratio="10">R12</text>
-<text x="-73.2536" y="-763.3716" size="1.27" layer="125" ratio="10">R13</text>
-<text x="-73.2536" y="-755.7516" size="1.27" layer="125" ratio="10">R14</text>
-<text x="-73.2536" y="-753.2116" size="1.27" layer="125" ratio="10">R15</text>
-<text x="-73.2536" y="-788.7716" size="1.27" layer="125" ratio="10">R16</text>
-<text x="-73.2536" y="-786.2316" size="1.27" layer="125" ratio="10">R17</text>
-<text x="-73.2536" y="-758.2916" size="1.27" layer="125" ratio="10">R18</text>
-<text x="-83.0834" y="-770.4836" size="1.27" layer="125" ratio="10" rot="R90">R19</text>
-<text x="-94.615" y="-749.935" size="1.27" layer="125" ratio="10" rot="R270">U$1</text>
-<text x="-73.66" y="-767.08" size="1.27" layer="125" rot="R270">U$3</text>
-<text x="-121.3612" y="-785.53119375" size="1.27" layer="125" ratio="10" rot="R90">X3</text>
-<text x="-108.331" y="-1011.301" size="1.27" layer="125" ratio="10">C1</text>
-<text x="-120.269" y="-986.409" size="1.27" layer="125" ratio="10" rot="R180">C2</text>
-<text x="-114.046" y="-1002.284" size="1.27" layer="125" ratio="10" rot="R270">C3</text>
-<text x="-115.824" y="-1007.237" size="1.27" layer="125" ratio="10" rot="R90">C4</text>
-<text x="-140.843" y="-1004.443" size="1.27" layer="125" ratio="10">C5</text>
-<text x="-134.747" y="-1004.697" size="1.27" layer="125" ratio="10" rot="R180">C6</text>
-<text x="-93.091" y="-1002.919" size="1.27" layer="125" ratio="10" rot="R270">C7</text>
-<text x="-112.522" y="-1004.189" size="1.27" layer="125" ratio="10" rot="R180">C8</text>
-<text x="-45.974" y="-1000.379" size="1.27" layer="125" ratio="10" rot="R270">IC1</text>
-<text x="-124.46" y="-984.7326" size="1.778" layer="125" ratio="10">IC2</text>
-<text x="-58.039" y="-985.139" size="1.27" layer="125" ratio="10" rot="R270">IC3</text>
-<text x="-52.959" y="-1016.254" size="1.27" layer="125" ratio="10" rot="R270">IC4</text>
-<text x="-141.605" y="-999.49" size="1.778" layer="125" ratio="10">IC5</text>
-<text x="-109.22" y="-1001.395" size="1.778" layer="125" ratio="10">IC6</text>
-<text x="-32.385" y="-1028.065" size="1.778" layer="125" rot="R180">J1</text>
-<text x="-32.385" y="-1011.555" size="1.778" layer="125" rot="R180">J2</text>
-<text x="-32.385" y="-995.045" size="1.778" layer="125" rot="R180">J3</text>
-<text x="-142.875" y="-979.805" size="1.778" layer="125">J4</text>
-<text x="-145.161" y="-1027.811" size="1.27" layer="125" ratio="10" rot="R90">JP3</text>
-<text x="-142.621" y="-1027.811" size="1.27" layer="125" ratio="10" rot="R90">JP4</text>
-<text x="-117.221" y="-1016.381" size="1.27" layer="125" ratio="10" rot="R90">JP6</text>
-<text x="-126.619" y="-986.409" size="1.27" layer="125" ratio="10" rot="R270">JP11</text>
-<text x="-126.619" y="-1001.395" size="1.27" layer="125" ratio="10" rot="R270">JP12</text>
-<text x="-129.921" y="-1001.141" size="1.27" layer="125" ratio="10" rot="R90">JP13</text>
-<text x="-133.740015625" y="-1016.371984375" size="1.27" layer="125" ratio="10" rot="R90">Q1</text>
-<text x="-124.5616" y="-984.0214" size="1.27" layer="125" ratio="10" rot="R270">R1</text>
-<text x="-88.4936" y="-1012.2916" size="1.27" layer="125" ratio="10">R2</text>
-<text x="-112.141" y="-1013.968" size="1.27" layer="125" ratio="10" rot="R90">R3</text>
-<text x="-88.4936" y="-1014.8316" size="1.27" layer="125" ratio="10">R4</text>
-<text x="-88.4936" y="-1002.1316" size="1.27" layer="125" ratio="10">R5</text>
-<text x="-88.4936" y="-994.5116" size="1.27" layer="125" ratio="10">R6</text>
-<text x="-88.4936" y="-984.3516" size="1.27" layer="125" ratio="10">R7</text>
-<text x="-88.4936" y="-1017.3716" size="1.27" layer="125" ratio="10">R8</text>
-<text x="-88.4936" y="-1009.7516" size="1.27" layer="125" ratio="10">R9</text>
-<text x="-88.4936" y="-1007.2116" size="1.27" layer="125" ratio="10">R10</text>
-<text x="-88.4936" y="-1004.6716" size="1.27" layer="125" ratio="10">R11</text>
-<text x="-88.4936" y="-999.5916" size="1.27" layer="125" ratio="10">R12</text>
-<text x="-88.4936" y="-997.0516" size="1.27" layer="125" ratio="10">R13</text>
-<text x="-88.4936" y="-989.4316" size="1.27" layer="125" ratio="10">R14</text>
-<text x="-88.4936" y="-986.8916" size="1.27" layer="125" ratio="10">R15</text>
-<text x="-88.4936" y="-1022.4516" size="1.27" layer="125" ratio="10">R16</text>
-<text x="-88.4936" y="-1019.9116" size="1.27" layer="125" ratio="10">R17</text>
-<text x="-88.4936" y="-991.9716" size="1.27" layer="125" ratio="10">R18</text>
-<text x="-98.3234" y="-1004.1636" size="1.27" layer="125" ratio="10" rot="R90">R19</text>
-<text x="-109.855" y="-983.615" size="1.27" layer="125" ratio="10" rot="R270">U$1</text>
-<text x="-88.9" y="-1000.76" size="1.27" layer="125" rot="R270">U$3</text>
-<text x="-136.6012" y="-1019.21119375" size="1.27" layer="125" ratio="10" rot="R90">X3</text>
 <dimension x1="70.79" y1="78.73" x2="70.79" y2="26.67" x3="80.01" y3="52.7" textsize="1.778" layer="16"/>
 <dimension x1="25.4" y1="27.94" x2="68.25" y2="27.94" x3="46.825" y3="16.51" textsize="1.778" layer="16"/>
 <text x="45.085" y="25.4" size="1.778" layer="16" rot="MR0">+</text>

@@ -19364,8 +19364,8 @@ Source: www.kingbright.com</description>
 <pinref part="IC3" gate="G$1" pin="PB3(MOSI/OC2)"/>
 <pinref part="JP3" gate="1" pin="1"/>
 <wire x1="215.9" y1="40.64" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="40.64" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="6"/>
+<wire x1="215.9" y1="40.64" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB5" class="0">
@@ -19373,8 +19373,8 @@ Source: www.kingbright.com</description>
 <pinref part="IC3" gate="G$1" pin="PB5(SCK)"/>
 <pinref part="JP3" gate="1" pin="3"/>
 <wire x1="215.9" y1="35.56" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="6"/>
-<wire x1="215.9" y1="35.56" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="3"/>
+<wire x1="215.9" y1="35.56" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB4" class="0">
@@ -19382,8 +19382,8 @@ Source: www.kingbright.com</description>
 <pinref part="IC3" gate="G$1" pin="PB4(MISO)"/>
 <pinref part="JP3" gate="1" pin="2"/>
 <wire x1="215.9" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="4"/>
-<wire x1="215.9" y1="38.1" x2="233.68" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="5"/>
+<wire x1="215.9" y1="38.1" x2="233.68" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -19421,13 +19421,6 @@ Source: www.kingbright.com</description>
 <wire x1="215.9" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PB2(SS/OC1B)"/>
-<pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="43.18" x2="233.68" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -19442,18 +19435,25 @@ Source: www.kingbright.com</description>
 <wire x1="215.9" y1="53.34" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$5" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PB0(ICP)"/>
-<pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="215.9" y1="48.26" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="48.26" x2="233.68" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB1(OC1A)"/>
+<pinref part="X1" gate="G$1" pin="4"/>
+<wire x1="215.9" y1="45.72" x2="233.68" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="PB1(OC1A)"/>
-<pinref part="X1" gate="G$1" pin="5"/>
-<wire x1="215.9" y1="45.72" x2="233.68" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="PB2(SS/OC1B)"/>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="43.18" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
