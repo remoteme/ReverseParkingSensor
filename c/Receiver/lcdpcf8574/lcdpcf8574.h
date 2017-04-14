@@ -199,7 +199,7 @@ extern void lcd_command(uint8_t cmd);
 extern void lcd_data(uint8_t data);
 
 extern void lcd_put_int(int num);
-
+extern void lcd_put_int3(int num);
 /**
  @brief macros for automatically storing string constant in program memory
 */

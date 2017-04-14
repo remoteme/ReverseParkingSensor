@@ -38,6 +38,11 @@ void init_sonar2(){
     ECHO_INPUT_MODE2();      // Set Echo pin as input
 }
 
+
+void init_sonar3(){
+    TRIG_OUTPUT_MODE3();     // Set Trigger pin as output
+    ECHO_INPUT_MODE3();      // Set Echo pin as input
+}
 /********** ...- . . .-. --- -... --- - *********************************
  * Send 10us pulse on Sonar Trigger pin
  * 1.   Clear trigger pin before sending a pulse
@@ -64,6 +69,15 @@ void trigger_sonar2(){
     _delay_us(1);           // Delay not required, but just in case...
 }
 
+
+void trigger_sonar3(){
+    TRIG_LOW3();             // Clear pin before setting it high
+    _delay_us(1);           // Clear to zero and give time for electronics to set
+    TRIG_HIGH3();            // Set pin high
+    _delay_us(12);          // Send high pulse for minimum 10us
+    TRIG_LOW3();             // Clear pin
+    _delay_us(1);           // Delay not required, but just in case...
+}
 /********** ...- . . .-. --- -... --- - *********************************
  * Increment timer on each overflow
  * Input:   none
@@ -151,7 +165,42 @@ unsigned int read_sonar2(){
 }
 
 
-#define ARRAY_COUNT 14
+unsigned int read_sonar3(){
+    int dist_in_cm = 0;
+    overFlowCounter=0;
+      trig_counter=0;
+    init_sonar3();                       // Setup pins and ports
+    trigger_sonar3();                    // send a 10us high pulse
+
+    while(!(SONAR_PIN & (1<<ECHO_BIT3))){   // while echo pin is still low
+        trig_counter++;
+         uint32_t max_response_time = SONAR_TIMEOUT;
+        if (trig_counter > max_response_time){   // SONAR_TIMEOUT
+            return TRIG_ERROR;
+        }
+    }
+
+    TCNT1=0;                            // reset timer
+    TCCR1B |= (1<<CS10);              // start 16 bit timer with no prescaler
+    TIMSK1 |= (1<<TOIE1);             // enable overflow interrupt on timer1
+    overFlowCounter=0;                  // reset overflow counter
+    sei();                              // enable global interrupts
+
+    while((SONAR_PIN & (1<<ECHO_BIT3))){    // while echo pin is still high
+        if (((overFlowCounter*TIMER_MAX)+TCNT1) > SONAR_TIMEOUT){
+            return ECHO_ERROR;          // No echo within sonar range
+        }
+    };
+
+    TCCR1B = 0x00;                      // stop 16 bit timer with no prescaler
+    cli();                              // disable global interrupts
+    no_of_ticks = ((overFlowCounter*TIMER_MAX)+TCNT1);  // counter count
+    dist_in_cm = (no_of_ticks/(CONVERT_TO_CM*CYCLES_PER_US));   // distance in cm
+    return (dist_in_cm );
+}
+
+
+#define ARRAY_COUNT 8
 
 
 int compare( const void* a, const void* b )
@@ -174,12 +223,12 @@ unsigned int countAvg2(unsigned int (*readPntr)()){
 	qsort(array,ARRAY_COUNT,sizeof(unsigned int),compare);
 
 	int sum=0;
+
 	for(int i=ARRAY_COUNT/2-2;i<ARRAY_COUNT/2+2;i++){
 		sum+=array[i];
-
 	}
 
-	return (sum/(4));
+	return (sum/4);
 
 }
 
@@ -192,4 +241,8 @@ unsigned int sonar1AVG(){
 
 unsigned int sonar2AVG(){
 	return countAvg2(read_sonar2 );
+}
+
+unsigned int sonar3AVG(){
+	return countAvg2(read_sonar3 );
 }

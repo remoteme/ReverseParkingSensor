@@ -11,7 +11,6 @@
 #include <avr/pgmspace.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
-#include "sonar/sonar.h"
 #include "lcdpcf8574/lcdpcf8574.h"
 
 #include "nrf24/nrf24.h"
@@ -91,8 +90,20 @@ void message(const char *s){
 	lcd_clrscr();
 }
 
+unsigned int normalize(unsigned int i){
+	if (i>999){
+		return 0;
+	}else if (i<0){
+		return 0;
+	}else{
+		return i;
+	}
+}
+
+
 int main(void)
 {
+
 
 
     lcd_init(LCD_DISP_ON);
@@ -108,28 +119,37 @@ int main(void)
 
 	message("radio zainicjalizowane");
 
-
 	_delay_ms(500);
 
-	uint8_t data[32];
+	unsigned int data[16];
+
+
+
+
+	int i=0;
     while(1) {
+
+
 
     	while (receive(data)) {//something receive
 
+
+
+       		lcd_gotoxy(0,0);
+       		lcd_put_int3(normalize(data[0]));
+
+       		lcd_gotoxy(5,0);
+       		lcd_put_int3(normalize(data[1]));
+
+
        		lcd_gotoxy(0,1);
-       		lcd_put_int(data[0]);
-       		lcd_gotoxy(5,1);
-       		lcd_put_int(data[1]);
+       		lcd_put_int3(normalize(data[2]));
+
+       		lcd_gotoxy(15,0);
+       		lcd_put_int(i++%10);
 
        	}
 
-       	/* if (send(data)) {//something receive
-       		lcd_gotoxy(0,15);
-       		lcd_put_int(1);
-       	}else{
-       		lcd_gotoxy(0,15);
-       		lcd_put_int(0);
-       	}*/
 
 
        	 _delay_ms(10);

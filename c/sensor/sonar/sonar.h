@@ -39,18 +39,20 @@
  * MAX_RESP_TIME : default: 300
  * DELAY_BETWEEN_TESTS : default: 50
  */
-#define SONAR_DDR    DDRC            // Trigger Port
-#define SONAR_PORT   PORTC
-#define SONAR_PIN    PINC
+#define SONAR_DDR    DDRB            // Trigger Port
+#define SONAR_PORT   PORTB
+#define SONAR_PIN    PINB
 
 
 
-#define TRIG_BIT1    PC3             // Trigger Pin
-#define ECHO_BIT1    PC2             // Echo Pin
+#define TRIG_BIT1    PB0             // Trigger Pin
+#define ECHO_BIT1    PB2             // Echo Pin
 
-#define TRIG_BIT2    PC1             // Trigger Pin
-#define ECHO_BIT2    PC0             // Echo Pin
+#define TRIG_BIT2    PB1            // Trigger Pin
+#define ECHO_BIT2    PB5             // Echo Pin
 
+#define TRIG_BIT3    PB4            // Trigger Pin
+#define ECHO_BIT3    PB3             // Echo Pin
 // Speed of sound
 // Default: 343 meters per second in dry air at room temperature (~20C)
 #define SPEED_OF_SOUND  343
@@ -76,17 +78,26 @@
 #define TRIG_INPUT_MODE2() SONAR_DDR &= ~(1<<TRIG_BIT2)
 #define TRIG_OUTPUT_MODE2() SONAR_DDR |= (1<<TRIG_BIT2)
 
+#define TRIG_INPUT_MODE3() SONAR_DDR &= ~(1<<TRIG_BIT3)
+#define TRIG_OUTPUT_MODE3() SONAR_DDR |= (1<<TRIG_BIT3)
+
 #define TRIG_LOW1() SONAR_PORT &= ~(1<<TRIG_BIT1)
 #define TRIG_HIGH1() SONAR_PORT |=(1<<TRIG_BIT1)
 
 #define TRIG_LOW2() SONAR_PORT &= ~(1<<TRIG_BIT2)
 #define TRIG_HIGH2() SONAR_PORT |=(1<<TRIG_BIT2)
 
+#define TRIG_LOW3() SONAR_PORT &= ~(1<<TRIG_BIT3)
+#define TRIG_HIGH3() SONAR_PORT |=(1<<TRIG_BIT3)
+
 #define ECHO_INPUT_MODE1() SONAR_DDR &= ~(1<<ECHO_BIT1)
 #define ECHO_OUTPUT_MODE1() SONAR_DDR |= (1<<ECHO_BIT1)
 
 #define ECHO_INPUT_MODE2() SONAR_DDR &= ~(1<<ECHO_BIT2)
 #define ECHO_OUTPUT_MODE2() SONAR_DDR |= (1<<ECHO_BIT2)
+
+#define ECHO_INPUT_MODE3() SONAR_DDR &= ~(1<<ECHO_BIT3)
+#define ECHO_OUTPUT_MODE3() SONAR_DDR |= (1<<ECHO_BIT3)
 
 
 #define ECHO_LOW() SONAR_PORT &= ~(1<<ECHO_BIT)
@@ -104,6 +115,7 @@
 */
 void init_sonar1();
 void init_sonar2();
+void init_sonar3();
 /**  ...- . . .-. --- -... --- -
  * @brief   Send 10us pulse on Ultrasonic Trigger pin
  * @param   void
@@ -111,6 +123,7 @@ void init_sonar2();
 */
 void trigger_sonar1();
 void trigger_sonar2();
+void trigger_sonar3();
 /**  ...- . . .-. --- -... --- -
  * @brief   Calculate and store echo time and return distance
  * @param   void
@@ -119,7 +132,9 @@ void trigger_sonar2();
 */
 unsigned int read_sonar1();
 unsigned int read_sonar2();
+unsigned int read_sonar3();
 
 unsigned int sonar1AVG();
 unsigned int sonar2AVG();
+unsigned int sonar3AVG();
 #endif /* SONAR_H_ */

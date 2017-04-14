@@ -368,12 +368,35 @@ void lcd_puts(const char *s)
 
 
 
+void lcd_put_int3(int num )
+/* get integer and print it as string */
+{
+	char buffer[34];
+	for(int i=0;i<3;i++){
+		buffer[i]=' ';
+	}
+
+	int z=0;
+	if (num<9){
+		z=2;
+	}else if (num<99){
+		z=1;
+	}
+	itoa(num, buffer+z, 10);	// convert integer into string (decimal format)
+
+	buffer[3]=0;
+
+	lcd_puts(buffer);
+}
 
 void lcd_put_int(int num)
 /* get integer and print it as string */
 {
-	char buffer[7];
+	char buffer[10];
+
 	itoa(num, buffer, 10);	// convert integer into string (decimal format)
+
+
 	lcd_puts(buffer);
 }/* lcd_put_int */
 

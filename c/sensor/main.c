@@ -10,7 +10,7 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 #include "nrf24/nrf24.h"
-
+#include "sonar/sonar.h"
 
 static uint8_t tx_address[5] = { 0x0, 0x0, 0x0, 0x18, 0x0 };
 static uint8_t deviceAddress[5] = { 0x0, 0x0, 0x0, 0x17, 0x0 }; //0x17 = 23 in dec   19=25
@@ -99,12 +99,20 @@ void turnOffKeepAlive() {
 int main(void) {
 	initKeepAlivePorts();
 
+
+
+	init_sonar1();
+
+	init_sonar2();
+	init_sonar3();
+
+
+
 	initRadio();
-	_delay_ms(500);
 
 	blink(1,500,500);
 
-	uint8_t data[32];
+	unsigned int data[16];
 	data[0]=0;
 	data[1]=0;
 
@@ -114,8 +122,9 @@ int main(void) {
 
 	while (1) {
 
-		data[0]++;
-		data[1]=data[0]*2;
+		data[0]=sonar1AVG();
+		data[1]=sonar2AVG();
+		data[2]=sonar3AVG();
 
 
 
@@ -133,5 +142,7 @@ int main(void) {
 
 
 	}
+
+
 }
 
